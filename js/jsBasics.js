@@ -12,4 +12,4 @@ let decvar = 5.5; // Number type variable
 let string = "Hello World!"; // String variable
 
 let isOn = false; // Boolean variable
-let isOn = true; // Boolean variable
+isOn = true; // Change Boolean variable
