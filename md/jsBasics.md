@@ -69,7 +69,9 @@ let isOn = true;
 
 ## 3. Operators
 
-| Mathematic        |     |
+### 3.1 Mathematic
+
+|                   |     |
 | ----------------- | --- |
 | _Sum/Concatenate_ | +   |
 | _Substract_       | -   |
@@ -77,7 +79,7 @@ let isOn = true;
 | _Divide_          | /   |
 | _Module_          | %   |
 
-Module is used to get the subtract of the division.
+_Module is used to get the subtract of the division._
 
 ```js
 let num;
@@ -88,7 +90,9 @@ num = 24 / 3;
 num = 8 % 2;
 ```
 
-| Asignation                 |     |
+### 3.2 Asignation
+
+|                            |     |
 | -------------------------- | --- |
 | _Asignation_               | =   |
 | _Sum and asignation_       | +=  |
@@ -106,3 +110,13 @@ num *= 3;
 num /= 3;
 num %= 2;
 ```
+
+### 3.2 Increase and decrease
+
+Pre operators are used to increase or decrease the value of the variable before checking it's value. Post operators are used to increase or decrease after the value is checked.
+| | |
+| --------------- | ----- |
+| _Pre-Increase_ | ++var |
+| _Post-Increase_ | var++ |
+| _Pre-Decrease_ | --var |
+| _Post-Decrease_ | var-- |
