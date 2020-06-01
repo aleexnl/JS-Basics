@@ -1,2 +1,3 @@
-# JavaScript Learning
-This is a javascript repository based. It is focused on documenting what I am learning related to javasscript in web developing.
+# JavaScript Basics
+This is a Javascript related repository.
+It is mainly focused on documenting javascript basics, so we all can have a "simple cheatsheet" in any moment.
