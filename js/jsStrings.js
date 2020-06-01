@@ -3,33 +3,30 @@ let msg = "Hello World!";
 
 //PROPERTIES
 // length -> Returns string's lenght (Space counts as a character)
-console.log(msg.length); // Result: 12
+console.log("String lenght: " + msg.length); // Result: 12
 
 // METODOS
 //All methods return a new string, the original one never gets modified.
 // toUpperCase() -> Returns string in uppercase
-console.log(msg.toUpperCase()); // Result: HELLO WORLD!
+console.log("String uppercase: " + msg.toUpperCase()); // Result: HELLO WORLD!
 let msgUpper = msg.toUpperCase(); // We can save the method result into a variable.
-console.log(msgUpper); // Result: HELLO WORLD!
+console.log("String uppercase: " + msgUpper); // Result: HELLO WORLD!
 
 // toLowerCase() -> Returns the string in lowercase
-console.log(msg.toLowerCase()); // Result: hello world!
+console.log("String lowercase: " + msg.toLowerCase()); // Result: hello world!
 
 //indexOf(string) -> Returns the position of the specified string. If it's not found, will return -1
-console.log(msg.indexOf("o")); // Result: 4
-console.log(msg.indexOf("Hello")); // Result: 0
-console.log(msg.indexOf("Bye")); // Result: -1
+console.log("Position of o: " + msg.indexOf("o")); // Result: 4
+console.log("Position of Hello: " + msg.indexOf("Hello")); // Result: 0
+console.log("Position of Bye: " + msg.indexOf("Bye")); // Result: -1
 
-// replace(valor a buscar, valor nuevo) -> Remplaza el fragmento de la cadena que le digamos y pone el valor nuevo
-console.log(msg.replace("World", "Team")); // Result: Hello Team!
+// replace(search, replace) -> Replaces the searched string for the specified in the replace argument.
+console.log("Replaced text: " + msg.replace("World", "Team")); // Result: Hello Team!
 
-/*
-substring(inicio [,fin]) -> Extrae los caracteres desde inicio hasta fin (el final no se incluye)
-Si no se incluye el fin extrae hasta el final.
-*/
-
-/*console.log(cadena.substring(3));
-console.log(cadena.substring(3, 7));*/
+//substring(start [,end]) -> Extrae los caracteres desde inicio hasta fin (el final no se incluye)
+//Si no se incluye el fin extrae hasta el final.
+console.log(msg.substring(1));
+console.log(msg.substring(1, 8));
 
 /*
 slice(inicio [,fin]) -> Igual que substring pero admite valores negativos, si ponemos valores negativos empezará desde atrás
