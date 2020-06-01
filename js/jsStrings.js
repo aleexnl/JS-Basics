@@ -1,29 +1,27 @@
 // STRINGS IN JS
 let msg = "Hello World!";
 
-//PROPIEDADES
-// length -> Devuelve la longitud del string (los espacios cuentan como carácteres).
+//PROPERTIES
+// length -> Returns string's lenght (Space counts as a character)
 console.log(msg.length); // Result: 12
 
 // METODOS
-//Todos los métodos devuelven una cadena nueva, la cadena original no será modificada.
-// toUpperCase() -> Devuleve la cadena a mayúsculas
+//All methods return a new string, the original one never gets modified.
+// toUpperCase() -> Returns string in uppercase
 console.log(msg.toUpperCase()); // Result: HELLO WORLD!
-let msgUpper = msg.toUpperCase();
+let msgUpper = msg.toUpperCase(); // We can save the method result into a variable.
 console.log(msgUpper); // Result: HELLO WORLD!
 
-// toLowerCase() -> Devuelve la cadena a minúsculas
+// toLowerCase() -> Returns the string in lowercase
 console.log(msg.toLowerCase()); // Result: hello world!
 
-//indexOf(string) -> Devuelve la posición en la que se encuentra el string, si no lo encuentra devuelve -1
-console.log(msg.indexOf("o"));
-console.log(msg.indexOf("Hello"));
+//indexOf(string) -> Returns the position of the specified string. If it's not found, will return -1
+console.log(msg.indexOf("o")); // Result: 4
+console.log(msg.indexOf("Hello")); // Result: 0
+console.log(msg.indexOf("Bye")); // Result: -1
 
-/*
-replace(valor a buscar, valor nuevo) -> Remplaza el fragmento de la cadena que le digamos y pone el valor nuevo
-*/
-
-/*console.log(cadena.replace('Mundo','Youtube'));*/
+// replace(valor a buscar, valor nuevo) -> Remplaza el fragmento de la cadena que le digamos y pone el valor nuevo
+console.log(msg.replace("World", "Team")); // Result: Hello Team!
 
 /*
 substring(inicio [,fin]) -> Extrae los caracteres desde inicio hasta fin (el final no se incluye)
