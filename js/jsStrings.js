@@ -23,10 +23,9 @@ console.log("Position of Bye: " + msg.indexOf("Bye")); // Result: -1
 // replace(search, replace) -> Replaces the searched string for the specified in the replace argument.
 console.log("Replaced text: " + msg.replace("World", "Team")); // Result: Hello Team!
 
-//substring(start [,end]) -> Extrae los caracteres desde inicio hasta fin (el final no se incluye)
-//Si no se incluye el fin extrae hasta el final.
-console.log(msg.substring(1));
-console.log(msg.substring(1, 8));
+//substring(start [,end]) -> Substracts the characters from the position to the end if not especified.
+console.log("Substracted text with no end" + msg.substring(1)); // Result: ello World!
+console.log("Substracted text with end" + msg.substring(1, 8)); // Result: ello Wo
 
 /*
 slice(inicio [,fin]) -> Igual que substring pero admite valores negativos, si ponemos valores negativos empezará desde atrás
