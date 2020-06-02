@@ -1,2 +1,4 @@
 # macOS Files
 .DS_Store
+# Editor Files
+.vscode/*
