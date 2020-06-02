@@ -24,15 +24,15 @@ console.log("Position of Bye: " + msg.indexOf("Bye")); // Result: -1
 console.log("Replaced text: " + msg.replace("World", "Team")); // Result: Hello Team!
 
 // substring(start [,end]) -> Substracts the characters from the position to the end if not especified.
-console.log("Substracted text with no end" + msg.substring(1)); // Result: ello World!
-console.log("Substracted text with end" + msg.substring(1, 8)); // Result: ello Wo
+console.log("Substracted text with no end: " + msg.substring(1)); // Result: ello World!
+console.log("Substracted text with end: " + msg.substring(1, 8)); // Result: ello Wo
 
 // slice(start [,end]) -> Same as substring. Slice allows negative values, so it will start backwards if one is specified.
-console.log(msg.slice(-3));
-console.log(msg.slice(2));
-console.log(msg.slice(0, -2));
+console.log(msg.slice(-3)); // Result: ld!
+console.log(msg.slice(2)); // Result: llo World!
+console.log(msg.slice(0, -2)); // Result: Hello Worl
 
-// trim()-> Elimina los espacios al inicio y al final de la cadena
+// trim()-> Deletes spaces at the start and at the end of the string.
 let welcome = "Hello world! We are working with strings";
 console.log(welcome.trim());
 
