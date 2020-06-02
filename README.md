@@ -2,3 +2,5 @@
 
 This is a Javascript related repository.
 It is mainly focused on documenting javascript basics, so we all can have a "simple cheatsheet" in any moment.
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
