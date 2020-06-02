@@ -36,10 +36,15 @@ console.log(msg.slice(0, -2)); // Result: Hello Worl
 let welcome = "Hello world! We are working with strings";
 console.log(welcome.trim());
 
-/*
---ES6--
-startsWith(valor [,inicio]) -> Sirve para saber si la cadena empieza con ese valor. Devuleve true o false
-*/
+////////////////////////////// ███████╗░██████╗  ░█████╗░
+////////////////////////////// ██╔════╝██╔════╝  ██╔═══╝░
+////////////////////////////// █████╗░░╚█████╗░  ██████╗░
+////////////////////////////// ██╔══╝░░░╚═══██╗  ██╔══██╗
+////////////////////////////// ███████╗██████╔╝  ╚█████╔╝
+////////////////////////////// ╚══════╝╚═════╝░  ░╚════╝░
+//////////////////////¡¡The methods bellow will only work with ES6!!
+
+// startsWith(valor [,index]) -> Sirve para saber si la cadena empieza con ese valor. Devuleve true o false
 
 /*console.log(cadena.startsWith('H'));
 console.log(cadena.startsWith('h'));
