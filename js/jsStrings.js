@@ -1,12 +1,28 @@
-// STRINGS IN JS
-let msg = "Hello World!";
+/*
+░██████╗████████╗██████╗░██╗███╗░░██╗░██████╗░░██████╗  ██╗███╗░░██╗  ░░░░░██╗░██████╗
+██╔════╝╚══██╔══╝██╔══██╗██║████╗░██║██╔════╝░██╔════╝  ██║████╗░██║  ░░░░░██║██╔════╝
+╚█████╗░░░░██║░░░██████╔╝██║██╔██╗██║██║░░██╗░╚█████╗░  ██║██╔██╗██║  ░░░░░██║╚█████╗░
+░╚═══██╗░░░██║░░░██╔══██╗██║██║╚████║██║░░╚██╗░╚═══██╗  ██║██║╚████║  ██╗░░██║░╚═══██╗
+██████╔╝░░░██║░░░██║░░██║██║██║░╚███║╚██████╔╝██████╔╝  ██║██║░╚███║  ╚█████╔╝██████╔╝
+╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚═╝╚═╝░░╚══╝░╚═════╝░╚═════╝░  ╚═╝╚═╝░░╚══╝  ░╚════╝░╚═════╝░
+*/
 
-//PROPERTIES
+let msg = "Hello World!"; // We will use this String to work.
+
+/*
+█▀█ █▀█ █▀█ █▀█ █ █▀▀ █▀█ ▀█▀ █ █▀▀ █▀
+█▀▀ █▀▄ █▄█ █▀▀ █ ██▄ █▀▄ ░█░ █ ██▄ ▄█
+*/
+
 // length -> Returns string's lenght (Space counts as a character)
 console.log("String lenght: " + msg.length); // Result: 12
 
-// METODOS
-//All methods return a new string, the original one never gets modified.
+/*
+█▀▄▀█ █▀▀ ▀█▀ █░█ █▀█ █▀▄ █▀
+█░▀░█ ██▄ ░█░ █▀█ █▄█ █▄▀ ▄█
+All methods return a new string, the original one never gets modified.
+*/
+
 // toUpperCase() -> Returns string in uppercase
 console.log("String uppercase: " + msg.toUpperCase()); // Result: HELLO WORLD!
 let msgUpper = msg.toUpperCase(); // We can save the method result into a variable.
@@ -28,65 +44,71 @@ console.log("Substracted text with no end: " + msg.substring(1)); // Result: ell
 console.log("Substracted text with end: " + msg.substring(1, 8)); // Result: ello Wo
 
 // slice(start [,end]) -> Same as substring. Slice allows negative values, so it will start backwards if one is specified.
-console.log(msg.slice(-3)); // Result: ld!
-console.log(msg.slice(2)); // Result: llo World!
-console.log(msg.slice(0, -2)); // Result: Hello Worl
+console.log("Slice backwards: " + msg.slice(-3)); // Result: ld!
+console.log("Slice forward: " + msg.slice(2)); // Result: llo World!
+console.log("Slice portion: " + msg.slice(0, -2)); // Result: Hello Worl
 
 // trim()-> Deletes spaces at the start and at the end of the string.
 let welcome = "Hello world! We are working with strings";
-console.log(welcome.trim());
-
-////////////////////////////// ███████╗░██████╗  ░█████╗░
-////////////////////////////// ██╔════╝██╔════╝  ██╔═══╝░
-////////////////////////////// █████╗░░╚█████╗░  ██████╗░
-////////////////////////////// ██╔══╝░░░╚═══██╗  ██╔══██╗
-////////////////////////////// ███████╗██████╔╝  ╚█████╔╝
-////////////////////////////// ╚══════╝╚═════╝░  ░╚════╝░
-//////////////////////¡¡The methods bellow will only work with ES6!!
-
-// startsWith(valor [,index]) -> Sirve para saber si la cadena empieza con ese valor. Devuleve true o false
-
-/*console.log(cadena.startsWith('H'));
-console.log(cadena.startsWith('h'));
-console.log(cadena.startsWith('M',5));*/
+console.log("Message with no spaces:" + welcome.trim());
 
 /*
-endsWith(valor [,longitud]) -> Sirve para saber si la cadena termina con ese valor. Devuleve true o false
-*/
+░██████╗████████╗██████╗░██╗███╗░░██╗░██████╗░░██████╗  ██╗███╗░░██╗  ░░░░░██╗░██████╗
+██╔════╝╚══██╔══╝██╔══██╗██║████╗░██║██╔════╝░██╔════╝  ██║████╗░██║  ░░░░░██║██╔════╝
+╚█████╗░░░░██║░░░██████╔╝██║██╔██╗██║██║░░██╗░╚█████╗░  ██║██╔██╗██║  ░░░░░██║╚█████╗░
+░╚═══██╗░░░██║░░░██╔══██╗██║██║╚████║██║░░╚██╗░╚═══██╗  ██║██║╚████║  ██╗░░██║░╚═══██╗
+██████╔╝░░░██║░░░██║░░██║██║██║░╚███║╚██████╔╝██████╔╝  ██║██║░╚███║  ╚█████╔╝██████╔╝
+╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚═╝╚═╝░░╚══╝░╚═════╝░╚═════╝░  ╚═╝╚═╝░░╚══╝  ░╚════╝░╚═════╝░
 
-/*console.log(cadena.endsWith('o'));
-console.log(cadena.endsWith('a',4));
-console.log(cadena.endsWith('n',8));
-console.log(cadena.endsWith('Mundo'));*/
+███████╗░██████╗░█████╗░
+██╔════╝██╔════╝██╔═══╝░
+█████╗░░╚█████╗░██████╗░
+██╔══╝░░░╚═══██╗██╔══██╗
+███████╗██████╔╝╚█████╔╝
+╚══════╝╚═════╝░░╚════╝░
+*/
 
 /*
-includes(valor[,inicio]) -> Igual que indexOf pero devuelve true o false
+█▀▄▀█ █▀▀ ▀█▀ █░█ █▀█ █▀▄ █▀
+█░▀░█ ██▄ ░█░ █▀█ █▄█ █▄▀ ▄█
+All methods return a new string, the original one never gets modified.
 */
 
-/*console.log(cadena.includes('n'));
-console.log(cadena.includes('a',5));
-console.log(cadena.includes('a',2));*/
+// startsWith(value [,index]) -> Evaluates if the value starts with the specified index
+console.log("Starts with H? " + msg.startsWith("H")); // Result: true
+console.log("Starts with h? " + msg.startsWith("h")); // Result: false
+console.log("Starts with W? " + msg.startsWith("W", 6)); // Result: true
+
+//endsWith(valor [,lenght]) -> Evaluates if the value ends with the specified index.
+console.log("Ends with !? " + msg.endsWith("!")); // true
+console.log("Ends with H? " + msg.endsWith("a", 4)); // false
+console.log("Ends with o? " + msg.endsWith("o", 5)); // true
+console.log("Ends with World!? " + msg.endsWith("World!")); // true
+
+//includes(value[,index]) -> Search if the string has the specified character (optional arg: where to start to count)
+console.log("Has n in string? " + msg.includes("n")); // false
+console.log("Has o in string starting in position 5? " + msg.includes("o", 5)); // true
+console.log("Has o in string starting in position 2? " + msg.includes("H", 2)); // false
+
+//repeat(value) -> Repeats the string the times indicated.
+console.log("Repeated message: " + msg.repeat(3));
+console.log("Repeated message: " + "Hello".repeat(10));
 
 /*
-repeat(valor) -> Repite el string el número de veces que le indiquemos.
+▀█▀ █▀▀ █▀▄▀█ █▀█ █░░ ▄▀█ ▀█▀ █▀▀         █▀ ▀█▀ █▀█ █ █▄░█ █▀▀ █▀
+░█░ ██▄ █░▀░█ █▀▀ █▄▄ █▀█ ░█░ ██▄         ▄█ ░█░ █▀▄ █ █░▀█ █▄█ ▄█
 */
 
-/*let cadena3 = 'Hola';
-console.log(cadena3.repeat(3));
-console.log('r'.repeat(10));*/
-
-/*Template Strings*/
-
-let nombre = "Juan";
-let apellido = "Gómez";
-let edad = 20;
+let name = "Alex";
+let surname = "Nieto";
+let age = 18;
 
 console.log(
-  "Hola " + nombre + " " + apellido + ". Tienes " + (edad + 1) + " años."
+  "Hello " + name + " " + surname + ". You're " + (age + 1) + " years old."
 );
 
-console.log(`Hola ${nombre} ${apellido}. Tienes ${edad} años.`);
+console.log(`Hello ${name} ${surname}. You're ${age} years old.`);
 
 console.log(
-  `Hola ${nombre} ${apellido}. El año que viene tendrás ${edad + 1} años.`
+  `Hello ${name} ${surname}. Next year you'll be ${age + 1} years old.`
 );
