@@ -7,7 +7,7 @@ It is mainly focused on documenting javascript basics, so we all can have a _"si
 
 ## Take part in
 
-If you think any of the files, markdowns or anything related to this project can be improved, feel free to discuss it in the issues.
+If you think any of the files related to this project can be improved, feel free to discuss it in the issues.
 
 ## License
 
