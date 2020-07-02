@@ -8,8 +8,12 @@ It is mainly focused on documenting javascript basics, so we all can have a _"si
 ## Chapters
 
 [1. Introduction to JavaScript](./1.Introduction/)
+
 [2. Strings in JavaScript](./2.Strings/)
+
 [3. Math in JavaScript](./3.Math_Object/)
+
+[4. Conditionals in JavaScript](./4.Conditionals/)
 
 ## Take part in
 
