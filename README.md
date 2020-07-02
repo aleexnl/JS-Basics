@@ -5,6 +5,12 @@ It is mainly focused on documenting javascript basics, so we all can have a _"si
 
 > These files are made by me for me, I share them so that they can be reviewed, improved and so that I and others can learn. There is no reason to take everything I have written on this project as a definitive guide or something as the only inspiration to learn JavaScript
 
+## Chapters
+
+[1. Introduction to JavaScript](./1.Introduction/)
+[2. Strings in JavaScript](./2.Strings/)
+[3. Math in JavaScript](./3.Math_Object/)
+
 ## Take part in
 
 If you think any of the files related to this project can be improved, feel free to discuss it in the issues.
