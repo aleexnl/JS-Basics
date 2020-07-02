@@ -1,5 +1,7 @@
 # ![alt text](assets/img/32x32.jpg) JavaScript Basics
 
+![GitHub](https://img.shields.io/github/license/aleexnl/JS-Basics?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/aleexnl/JS-Basics?style=for-the-badge) ![GitHub stars](https://img.shields.io/github/stars/aleexnl/JS-Basics?style=for-the-badge)
+
 This is a Javascript related repository.
 It is mainly focused on documenting javascript basics, so we all can have a _"simple cheatsheet"_ in any moment.
 
@@ -20,7 +22,5 @@ It is mainly focused on documenting javascript basics, so we all can have a _"si
 If you think any of the files related to this project can be improved, feel free to discuss it in the issues.
 
 ## License
-
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 Have a look at the [license file](./LICENSE) for details
