@@ -1,4 +1,4 @@
-# ![alt text](img/32x32.jpg) JavaScript Basics
+# ![alt text](assets/img/32x32.jpg) JavaScript Basics
 
 This is a Javascript related repository.
 It is mainly focused on documenting javascript basics, so we all can have a _"simple cheatsheet"_ in any moment.
