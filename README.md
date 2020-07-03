@@ -1,4 +1,4 @@
-# ![js logo](assets/img/32x32.jpg) JavaScript Basics
+# ![js logo](assets/img/32x32.jpg) JavaScript Basic Cheat Sheets
 
 ![GitHub](https://img.shields.io/github/license/aleexnl/JS-Basics?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/aleexnl/JS-Basics?style=for-the-badge)
 
