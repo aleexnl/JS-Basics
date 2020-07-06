@@ -8,7 +8,7 @@ The `switch` statement evaluates an expression and executes the corresponding bo
 
 #### Switch Flowchart
 
-![Switch Flowchart](../assets/img/switch/javascript-switch-statement.png)
+<img src="../assets/img/switch/javascript-switch-statement.png" alt="drawing" width="500"/>
 
 ## 2. Switch
 
