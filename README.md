@@ -13,8 +13,6 @@ It is mainly focused on documenting javascript basics, so we all can have a <i>s
 
 > **_Note:_** These files are made by me for me, I share them so that they can be reviewed, improved and so that I and others can learn. There is no reason to take everything I have written on this project as a definitive guide or something as the only inspiration to learn JavaScript.
 
----
-
 <h3><strong>CHAPTERS</strong></h3>
 
 [**1.** _Introduction to JavaScript_](./1.Introduction/)
