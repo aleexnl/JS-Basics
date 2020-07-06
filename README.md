@@ -9,8 +9,6 @@
 It is mainly focused on documenting javascript basics, so we all can have a <i>simple cheatsheet</i>in any moment.
 </p>
 
----
-
 > **_Note:_** These files are made by me for me, I share them so that they can be reviewed, improved and so that I and others can learn. There is no reason to take everything I have written on this project as a definitive guide or something as the only inspiration to learn JavaScript.
 
 <h3><strong>CHAPTERS</strong></h3>
@@ -31,9 +29,9 @@ If you think any of the files related to this project can be improved, feel free
 
 <h3><strong>CREDITS AND COLLABORATORS</strong></h3>
 
-- [Glorian Designs](https://github.com/DorianDesings) : _Base code for cheatsheets._
+- [**Glorian Designs**](https://github.com/DorianDesings) : _Base code for cheatsheets._
 
-- [Programinz](https://www.programiz.com) : _Some of the images and text used in the README.md in chapters._
+- [**Programinz**](https://www.programiz.com) : _Some of the images and text used in the README.md in chapters._
 
 <h3><strong>LICENSE</strong></h3>
 
