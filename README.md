@@ -1,7 +1,7 @@
 <p  align="center">
     <img src="assets/img/icon.jpg"/>
 </p>
-<h2 align="center"><strong>JAVASCRIPT BASIC CHEATSHEETS</strong></h2>
+<h2 align="center"><strong>NEWBIE JAVASCRIPT CHEAT SHEETS</strong></h2>
 <p  align="center">
     <img src="https://img.shields.io/github/license/aleexnl/JS-Basics?style=for-the-badge"/>
      <img src="https://img.shields.io/github/last-commit/aleexnl/JS-Basics?style=for-the-badge"/></br>
@@ -13,15 +13,15 @@ It is mainly focused on documenting javascript basics, so we all can have a <i>s
 
 <h3><strong>📂 CHAPTERS</strong></h3>
 
-[**1.** _Introduction to JavaScript_](./1.Introduction/)
+[**1.** Introduction to JavaScript](./1.Introduction/)
 
-[**2.** _Strings in JavaScript_](./2.Strings/)
+[**2.** Strings in JavaScript](./2.Strings/)
 
-[**3.** _Math in JavaScript_](./3.Math/)
+[**3.** Math in JavaScript](./3.Math/)
 
-[**4.** _Conditionals in JavaScript_](./4.Conditionals/)
+[**4.** Conditionals in JavaScript](./4.Conditionals/)
 
-[**5.** _Switch Statement_](./5.Switch/)
+[**5.** Switch Statement](./5.Switch/)
 
 <h3><strong>📥 TAKE PART IN</strong></h3>
 
