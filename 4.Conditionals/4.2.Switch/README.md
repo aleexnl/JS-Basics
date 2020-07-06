@@ -9,7 +9,7 @@ The `switch` statement evaluates an expression and executes the corresponding bo
 #### Switch Flowchart
 
 <p align="center">
-  <img src="../assets/img/switch/javascript-switch-statement.png" alt="drawing" width="500"/>
+  <img src="../../assets/img/switch/javascript-switch-statement.png" alt="drawing" width="500"/>
 </p>
 
 ## 2. Switch
