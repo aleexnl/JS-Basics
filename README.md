@@ -23,9 +23,17 @@ It is mainly focused on documenting javascript basics, so we all can have a <i>s
 
 [**4.** _Conditionals in JavaScript_](./4.Conditionals/)
 
+[**5.** _Switch Statement_](./5.Switch/)
+
 <h3><strong>TAKE PART IN</strong></h3>
 
 If you think any of the files related to this project can be improved, feel free to discuss it in the issues.
+
+<h3><strong>CREDITS AND COLLABORATORS</strong></h3>
+
+- [Glorian Designs](https://github.com/DorianDesings) : _Base code for cheatsheets._
+
+- [Programinz](https://www.programiz.com) : _Some of the images and text used in the README.md in chapters._
 
 <h3><strong>LICENSE</strong></h3>
 
