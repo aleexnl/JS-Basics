@@ -3,9 +3,10 @@
 </p>
 <h2 align="center"><strong>NEWBIE JAVASCRIPT CHEAT SHEETS</strong></h2>
 <p  align="center">
-    <img src="https://img.shields.io/github/license/aleexnl/newbie-javascript-cheat-sheets?style=for-the-badge"/>
-    <img src="https://img.shields.io/github/last-commit/aleexnl/newbie-javascript-cheat-sheets?style=for-the-badge"/>
-    <img src="https://img.shields.io/github/languages/top/aleexnl/newbie-javascript-cheat-sheets?style=for-the-badge"/>
+    <img alt="GitHub" src="https://img.shields.io/github/license/aleexnl/newbie-javascript-cheat-sheets?color=red&style=for-the-badge">
+    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/aleexnl/newbie-javascript-cheat-sheets/master?logo=github&style=for-the-badge">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/aleexnl/newbie-javascript-cheat-sheets?color=yellow&logo=github&style=for-the-badge">
+    <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/aleexnl/newbie-javascript-cheat-sheets?color=darkblue&label=size&logo=github&style=for-the-badge">
     </br>
     This is a Javascript related repository.
     It is mainly focused on documenting javascript basics, so we all can have a <i>simple cheatsheet</i> in any moment.
