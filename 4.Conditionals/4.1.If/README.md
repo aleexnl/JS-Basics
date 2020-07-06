@@ -45,7 +45,7 @@ if (10 < 5) {
 You can also extend an if statement with an `else if` statement, which adds another conditional with its own block.
 
 <p align="center">
-  <img src="../../assets/img/conditionals/js-if-else-if-statement.png" alt="drawing" width="500"/>
+  <img src="../../assets/img/conditionals/js-if-else-if-statement.png" alt="drawing" width="750"/>
 </p>
 
 ```js
