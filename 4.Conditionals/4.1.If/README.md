@@ -14,7 +14,7 @@ There are multiple different types of conditionals in JavaScript including:
 
 As the most common type of conditional, the `if` statement only runs if the condition enclosed in parentheses `()` is truthy.
 
-![alt text](../assets/img/conditionals/js-if-statement.png)
+![alt text](../../assets/img/conditionals/js-if-statement.png)
 
 ```js
 if (10 > 5) {
@@ -26,7 +26,7 @@ if (10 > 5) {
 
 You can extend an if statement with an `else`statement, which adds another block to run when the if conditional doesn’t pass.
 
-![alt text](../assets/img/conditionals/js-if-else-statement.png)
+![alt text](../../assets/img/conditionals/js-if-else-statement.png)
 
 ```js
 if (10 < 5) {
@@ -40,7 +40,7 @@ if (10 < 5) {
 
 You can also extend an if statement with an `else if` statement, which adds another conditional with its own block.
 
-![alt text](../assets/img/conditionals/js-if-else-if-statement.png)
+![alt text](../../assets/img/conditionals/js-if-else-if-statement.png)
 
 ```js
 if (10 < 5) {
