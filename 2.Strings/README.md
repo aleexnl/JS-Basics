@@ -3,7 +3,7 @@
 </p>
 <h2 align="center"><strong>NEWBIE JAVASCRIPT CHEAT SHEETS</strong></h2>
 
-# A JavaScript Introduction
+# Strings in JavaScript
 
 ## 1. Introduction
 
