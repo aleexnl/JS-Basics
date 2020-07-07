@@ -23,6 +23,7 @@
    1. [If, else if, else Statement](./4.Conditionals/4.1.If/)
    2. [Switch Statement](./4.Conditionals/4.2.Switch/)
    3. [Ternary Operator](./4.Conditionals/4.3.Ternary/)
+5. [Arrays in JavaScript](./5.Arrays/)
 
 <h3><strong>📥 TAKE PART IN</strong></h3>
 
