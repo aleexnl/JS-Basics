@@ -17,12 +17,14 @@ let cars = ["Seat", "Peugeot", "BMW"];
 
 - Different data types can be stored in the same array, but it is not a recommended practice.
 
-- THey can be declared with an array literal (`[]`) or using the `new` keyword.
+- They can be declared with an array literal (`[]`) or using the `new` keyword.
 
 ```js
 let cars = ["Seat", "Peugeot", "BMW"];
 let computers = new Array("Gigabyte", "ASUS", "MSI");
 ```
+
+> **Note:** It is recommended to always use the literal declaration.
 
 - Array first position is always 0.
 
