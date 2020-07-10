@@ -66,30 +66,34 @@ console.log(fruits.reverse());
 
 // join(*'separator') -> Returns a string with the specified separator (Default: ,).
 console.log(`Fruits to buy: ${fruits.join("-")}`);
-let fruitList = fruits.join("-");
-console.log(fruitList); // We can store the string in a variable
 
-// splice(start, num elements, *items) -> Deletes the actual content of an array or adds the specified values.
+// splice(start,  *num elements, *items) -> Deletes the actual content of an array or adds the specified values.
+console.log(`Original Array: ${fruits}`);
+fruits.splice(3); //Deletes from index 3 to the end
+console.log(`Modified Array: ${fruits}`);
+fruits = ["Apple", "Banana", "Melon", "Watermelon", "Melon"];
 
-//console.log(numbers);
-//numbers.splice(3) - Elimina desde la posicion a hasta el final
-//numbers.splice(2,2) - Elimina desde la posicion a el número valores que le indiquemos
-//numbers.splice(2,2,10,23,54) - Si b es un valor distinto de 0 elimina el número de valores que indiquemos en b y añade los valores de items a partir de la posicion a
-//numbers.splice(4,0,10,23,54) - Si b vale 0 añade los elementos a partir de la posicion a y no elimina ninguno
-//console.log(numbers);
+fruits.splice(2, 2); // Deletes from the specified index the number of indexes specified
+console.log(`Modified Array: ${fruits}`);
+fruits = ["Apple", "Banana", "Melon", "Watermelon", "Melon"];
 
-/* 
-    .slice(a,b) - Extrae elementos de un array desde el índice a hasta el índice b. Si no existe b lo hace desde a hasta el final, si no existe ni a ni b hace una copia del original.
-*/
+fruits.splice(2, 2, "Kiwi", "Strawberry"); // After deleting the values specified it will add the new ones (10, 23, 54)
+console.log(`Modified Array: ${fruits}`);
+fruits = ["Apple", "Banana", "Melon", "Watermelon", "Melon"];
 
-//let newNumbers = numbers.slice();
-//console.log(numbers);
-//console.log(newNumbers);
+fruits.splice(4, 0, "Kiwi", "Strawberry"); // if "num elements" equals 0, it will start adding elements from the specified argument in "start".
+console.log(`Modified Array: ${fruits}`);
+fruits = ["Apple", "Banana", "Melon", "Watermelon", "Melon"];
 
-//let newNumbers = numbers.slice(2);
-//console.log(numbers);
-//console.log(newNumbers);
+// slice(*start, *end) -> Extrae elementos de un array desde el índice a hasta el índice b. Si no existe b lo hace desde a hasta el final, si no existe ni a ni b hace una copia del original.
+let newFruits = fruits.slice(); // Create new array from start to the end
+console.log(`Original Array: ${fruits}`);
+console.log(`New Array from original: ${newFruits}`);
 
-//let newNumbers = numbers.slice(2,4);
-//console.log(numbers);
-//console.log(newNumbers);
+newFruits = fruits.slice(2); // Create new array from index 2 to the end
+console.log(`Original Array: ${fruits}`);
+console.log(`New Array from original: ${newFruits}`);
+
+newFruits = fruits.slice(2, 4); // Create new array from index 2 to index 4 (4 is not included)
+console.log(`Original Array: ${fruits}`);
+console.log(`New Array from original: ${newFruits}`);
