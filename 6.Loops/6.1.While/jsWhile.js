@@ -17,12 +17,15 @@
 let passwd = "";
 
 while (passwd != "Hello") {
+  // while loop
   passwd = prompt("Write Hello");
-}
+} // user prompt the text untill equals "Hello"
+
 console.log("End of Loop");
 
 do {
   passwd = prompt("Write Bye");
-} while (passwd != "Bye");
+} while (passwd != "Bye"); // user prompt the text untill equals "Bye"
+
 console.log("End of Loop");
 console.log("End of program");
