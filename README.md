@@ -24,6 +24,10 @@
    2. [Switch Statement](./4.Conditionals/4.2.Switch/)
    3. [Ternary Operator](./4.Conditionals/4.3.Ternary/)
 5. [Arrays in JavaScript](./5.Arrays/)
+6. [Loops in JavaScript](./6.Loops/)
+   1. [While, do while loops](./6.Loops/6.1.While/)
+   2. [For loop](./6.Loops/6.2.For/)
+   3. [For of, for in loops](./6.Loops/6.3.ForEx/)
 
 <h3><strong>📥 TAKE PART IN</strong></h3>
 
