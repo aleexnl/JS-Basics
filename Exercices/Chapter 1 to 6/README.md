@@ -4,7 +4,7 @@
 
 1.  Request a name, age and show the console message `Hello __ __, you are __ years old and next year you will be ___ years old`. Perform the exercise with `prompt(msg)` and make use of the template strings.
 
-2.  Escribe un programa que pueda calcular el área de 3 figuras geométricas: triángulo, rectángulo y círculo. En primer lugar pregunta de qué figura se quiere calcular el área, después solicita los datos que necesites para calcularlo.
+2.  Write a program that can calculate the area of 3 geometric figures. First ask which figure you want to calculate the area of, then ask for the data you need to calculate it.
 
     > **Triangle:** b \* h/2
     >
