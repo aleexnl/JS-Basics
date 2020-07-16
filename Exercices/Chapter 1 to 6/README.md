@@ -2,7 +2,7 @@
 
 ## From the content of Chapter 1 to Chapter 6.
 
-1.  Request a name, age and show the console message `Hello __ __, you are __ years old and next year you will be ___ years old`. Perform the exercise with `prompt(msg)` and make use of the template strings.
+1.  Request a name, age and show the console message `Hello __ . You are __ years old and next year you will be ___ years old`. Perform the exercise with `prompt(msg)` and make use of the template strings.
 
 2.  Write a program that can calculate the area of 3 geometric figures. First ask which figure you want to calculate the area of, then ask for the data you need to calculate it.
 
@@ -14,21 +14,9 @@
 
 3.  Solicita un número e imprime todos los números pares e impares desde 1 hasta ese número con el mensaje `es par` o `es impar`.
 
-    ```js
-    const number = prompt("Input a number: ");
+4.  Write a program that asks for an integer greater than 1 and writes whether the prime number or not.
 
-    /* Results:
-    es impar 
-    es par 
-    es impar 
-    es par 
-    es impar
-    */
-    ```
-
-4.  Escribe un programa que pida un número entero mayor que 1 y que escriba si el número primo o no.
-
-    > Un número primo es aquel que solo es divisible por sí mismo y la unidad
+    > A prime number is one that is only divisible by itself and unity.
 
 5.  Escriba un programa que pida un número entero mayor que cero y calcule su factorial.
 
