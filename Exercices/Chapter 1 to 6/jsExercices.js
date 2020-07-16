@@ -184,8 +184,45 @@ function exerciceSeven() {
 }
 
 // EXERCICE 8
-function exerciceEight() {}
+function exerciceEight() {
+  const dniNumber = parseInt(
+    prompt("Input your DNI number (no more than 8 numbers")
+  );
+  const dniLetters = [
+    "T",
+    "R",
+    "W",
+    "A",
+    "G",
+    "M",
+    "Y",
+    "F",
+    "P",
+    "D",
+    "X",
+    "B",
+    "N",
+    "J",
+    "Z",
+    "S",
+    "Q",
+    "V",
+    "H",
+    "L",
+    "C",
+    "K",
+    "E",
+    "T",
+  ];
 
+  if (!isNaN(dniNumber) && dniNumber.toString().length == 8) {
+    const dniLetter = dniLetters[dniNumber % 23];
+    console.log(`Your DNI letter is ${dniLetter}.`);
+    console.log(`Your complete DNI is ${dniNumber + dniLetter}.`);
+  } else {
+    console.log("ERROR: Did you write an 8-digit number?");
+  }
+}
 // EXERCICE 9
 function exerciceNine() {}
 

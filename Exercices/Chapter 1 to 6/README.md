@@ -37,10 +37,10 @@
     - The multiplication that occurs along with its result in the format: `2 x 3 = 6`
     - The odd and even array.
 
-8.  Dado un array de letras, solicita un número de DNI y calcula que letra le corresponde. El número no puede ser negativo ni tener más de 8 dígitos. La posición de la letra es el resultado del módulo del número introducido entre 23
+8.  Given an array of letters, it requests a DNI number and calculates which letter corresponds to it. The number cannot be negative or have more than 8 digits. The position of the letter is the result of the module of the number entered between 23
 
     ```js
-    const letras = [
+    const letters = [
       "T",
       "R",
       "W",
@@ -68,6 +68,6 @@
     ];
     ```
 
-9.  Solicitar al usuario una palabra y mostrar por consola el número de consonantes, vocales y longitud de la palabra.
+9.  Ask the user for a word and show by console the number of consonants, vowels and length of the word.
 
 10. Dado un array que contiene ["azul", "amarillo", "rojo", "verde", "rosa"] determinar si un color introducido por el usuario a través de un prompt se encuentra dentro del array o no.
