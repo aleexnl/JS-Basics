@@ -26,16 +26,16 @@
 
 6.  Write a program that allows you to enter an indeterminate series of numbers as long as their sum does not exceed 50. When this happens, the accumulated total and the counter of how many numbers have been entered should be displayed.
 
-7.  Crea 3 arrays:
+7.  Create 3 arrays:
 
-        - El primero tendra 5 números y el segundo se llamará pares y el tercero impares, ambos estarán vacíos. Después multiplica cada uno de los números del primer array por un número aleatorio entre 1 y 10,
-        - Si el resultado es par guarda ese número en el array de pares
-        - Si es impar en el array de impares.
+    - The first will have 5 numbers and the second will be called even and the third odd; both will be empty. Then multiply each of the numbers in the first array by a random number between 1 and 10,
+    - If the result is even save that number in the array of pairs
+    - If it is odd in the odd array.
 
-    Muestra en la consola:
+    Show in the console:
 
-    - La multiplicación que se produce junto con su resultado con el formato 2 x 3 = 6
-    - El array de pares e impares
+    - The multiplication that occurs along with its result in the format: `2 x 3 = 6`
+    - The odd and even array.
 
 8.  Dado un array de letras, solicita un número de DNI y calcula que letra le corresponde. El número no puede ser negativo ni tener más de 8 dígitos. La posición de la letra es el resultado del módulo del número introducido entre 23
 

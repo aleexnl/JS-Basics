@@ -154,3 +154,40 @@ function exerciceSix() {
     );
   }
 }
+
+// EXERCICE 7
+function exerciceSeven() {
+  let numbers = []; // Array where numbers will be sotred
+  let oddNumbers = [];
+  let evenNumbers = [];
+
+  // generate the number array randomly
+  for (let index = 0; index <= 5; index++) {
+    const randNumber = Math.floor(Math.random() * 10) + 1;
+    numbers.push(randNumber);
+  }
+  console.log(`Number array: ${numbers.join(", ")}`);
+  for (const number of numbers) {
+    const randNumber = Math.floor(Math.random() * 10) + 1; // generate random number between 1 and 10
+    result = number * randNumber; // Calculate the result
+    console.log(`${number} * ${randNumber} = ${result}`); // Custom console log message
+    if (result % 2 == 0) {
+      // if even number
+      evenNumbers.push(result);
+    } else {
+      // else
+      oddNumbers.push(result);
+    }
+  }
+  console.log(`Even numbers array: ${evenNumbers.join(", ")}`); // show formated array list
+  console.log(`Odd numbers array: ${oddNumbers.join(", ")}`);
+}
+
+// EXERCICE 8
+function exerciceEight() {}
+
+// EXERCICE 9
+function exerciceNine() {}
+
+// EXERCICE 10
+function exerciceTen() {}
