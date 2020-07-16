@@ -116,3 +116,41 @@ function exerciceFour() {
     console.log("ERROR: Did you input a number greater than 1?");
   }
 }
+
+// EXERCICE 5
+function exerciceFive() {
+  const number = parseInt(prompt("Type an integer number greater than 0."));
+  let factorial = [];
+  let total = 1;
+
+  if (!isNaN(number) && number > 0) {
+    for (let index = number; index != 0; index--) {
+      factorial.push(index);
+      total *= index;
+    }
+    console.log(`Factorial of ${number}: ${factorial.join(",")} = ${total}`);
+  } else {
+    console.log("ERROR: Did you input a number greater than 0?");
+  }
+}
+
+// EXERCICE 6
+function exerciceSix() {
+  let total = 0;
+  let numbers = [];
+  let number;
+
+  while (total < 50) {
+    number = parseFloat(prompt("Input a number greater than 0."));
+    if (!isNaN(number) && number > 0) {
+      total += number;
+      numbers.push(number);
+    }
+    console.log(
+      `You passed the total of 50 (${total}). You wrote ${
+        numbers.length
+      } numbers before passing the total.
+      The numbers you wrote were: ${numbers.join(", ")}`
+    );
+  }
+}

@@ -18,15 +18,13 @@
 
     > A prime number is one that is only divisible by itself and unity.
 
-5.  Escriba un programa que pida un número entero mayor que cero y calcule su factorial.
+5.  Write a program that asks for an integer greater than zero and compute its factorial.
 
-    > El factorial es el resultado de multiplicar ese número por sus anteriores hasta la unidad.
+    > The factorial is the result of multiplying this number by its previous ones up to the unit.
 
             !5 = 5*4*3*2*1 = 120
 
-6.  Escribe un programa que permita ir introduciendo una serie indeterminadade números mientras su suma no supere 50.
-
-    Cuando esto ocurra, se debe mostrar el total acumulado y el contador de cuantos números se han introducido
+6.  Write a program that allows you to enter an indeterminate series of numbers as long as their sum does not exceed 50. When this happens, the accumulated total and the counter of how many numbers have been entered should be displayed.
 
 7.  Crea 3 arrays:
 
