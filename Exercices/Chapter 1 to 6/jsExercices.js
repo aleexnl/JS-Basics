@@ -98,3 +98,21 @@ function exerciceThree() {
     console.log("ERROR: Did you input a number?");
   }
 }
+
+// EXERCICE 4
+function exerciceFour() {
+  const number = parseInt(prompt("Type an integer number greater than 1."));
+  let isPrime;
+  if (!isNaN(number) && number > 1) {
+    for (let index = 2; index < number; index++) {
+      if (Number.isInteger(number / index)) {
+        console.log(`${number} is not a prime number.`);
+        break;
+      }
+      isPrime = true;
+    }
+    if (isPrime) console.log(`${number} is a prime number.`);
+  } else {
+    console.log("ERROR: Did you input a number greater than 1?");
+  }
+}
