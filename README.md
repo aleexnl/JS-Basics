@@ -30,6 +30,14 @@
    3. [For of, for in loops](./6.Loops/6.3.ForEx/)
 7. [Objects](./7.Objects/)
 8. [Functions](./8.Functions/)
+9. [Object Oriented Programming](./9.OOP/)
+
+<h3><strong>🎓 EXTRA</strong></h3>
+
+During my learning phase, I did exercises to put in practice wat I have learned. I'll leave them here, so you can check the solutions and the statements if you want to try them by you.
+
+1. [Exercises](./Exercises/)
+   1. [Chapter 1 - 6](./Exercises/Chapter1-6/)
 
 <h3><strong>📥 TAKE PART IN</strong></h3>
 
