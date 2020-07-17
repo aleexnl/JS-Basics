@@ -1,7 +1,3 @@
-/*
-- Create a function that asks for a genre and displays the information of 
-    the books that belong to that genre using a method that returns the information */
-
 class Book {
   constructor(title, author, year, genre) {
     this.title = title;
@@ -95,6 +91,13 @@ const showSortedAuthors = (books) => {
   return `Authors alphabetically sorted: ${authors.sort()}`;
 };
 
+const getBookByGenre = (books) => {
+  const genre = askGenre();
+  for (const book of books) {
+    if (genre.toUpperCase() == book.genre.toUpperCase()) {
+      console.log(book.getBook());
+    }
+  }
+};
+
 let books = createBooks(); // create books
-showBooks(books); // show books
-showAuthors(books); // show sorted authors
