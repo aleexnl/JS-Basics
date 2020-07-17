@@ -11,19 +11,7 @@ Objects are data structures that represent properties, values and actions that t
 
 ```js
 const laptop = {
-    screenSize: 13,
-    model: "MacBook Pro"
+  screenSize: 13,
+  model: "MacBook Pro",
 };
-}
-```
-
-## 2. For in
-
-This is a determited loop, since we know how many times will execute the code, but we do not need to specify the increment. It returns the index position.
-
-```js
-let carBrands = ["Mercedes", "BMW", "Ferrari", "Peugeot"];
-for (index in CarBrands) {
-  console.log(`Actual position: ${index}`);
-}
 ```
