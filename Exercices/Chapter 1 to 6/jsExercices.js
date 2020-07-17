@@ -20,16 +20,6 @@ function exerciceOne() {
 
   console.log(msg);
 }
-function exerciceOneSimple() {
-  let name = prompt("Input your name:");
-  let age = parseInt(prompt("Input your age:"));
-
-  console.log(
-    `Hello ${name}. You are ${age} years old and the next year you will be ${
-      age + 1
-    } years old.`
-  );
-}
 
 // EXERCICE 2
 function exerciceTwo() {
@@ -224,7 +214,44 @@ function exerciceEight() {
   }
 }
 // EXERCICE 9
-function exerciceNine() {}
+function exerciceNine() {
+  let word = prompt("Write a word.");
+  const vowels = ["A", "E", "I", "O", "U"];
+  let consontantCount = 0;
+  let vowelCount = 0;
+
+  if (isNaN(parseInt(word)) && typeof word == "string") {
+    word = word.toUpperCase();
+    for (const char in word) {
+      if (vowels.indexOf(word[char]) == -1) {
+        consontantCount += 1;
+      } else {
+        vowelCount += 1;
+      }
+    }
+    console.log(`Consontants: ${consontantCount}`);
+    console.log(`Vowels: ${vowelCount}`);
+    console.log(`Word lenght: ${word.length}`);
+  } else {
+    console.log("ERROR: Did you write any word?");
+  }
+}
 
 // EXERCICE 10
-function exerciceTen() {}
+function exerciceTen() {
+  const colours = ["BLUE", "YELLOW", "RED", "GREEN", "PINK"];
+  const userColor = prompt("Write a color to check if we have it.");
+
+  if (typeof userColor == "string") {
+    let colour = userColor.toUpperCase();
+    if (colours.indexOf(colour) != -1) {
+      console.log(
+        `We found colour ${userColor} at position ${colours.indexOf(colour)}`
+      );
+    } else {
+      console.log(`We didn't find ${userColor} in our list.`);
+    }
+  } else {
+    console.log("ERROR: Did you write any word?");
+  }
+}
