@@ -28,6 +28,7 @@
    1. [While, do while loops](./6.Loops/6.1.While/)
    2. [For loop](./6.Loops/6.2.For/)
    3. [For of, for in loops](./6.Loops/6.3.ForEx/)
+7. [Objects](./7.Objects/)
 
 <h3><strong>📥 TAKE PART IN</strong></h3>
 
