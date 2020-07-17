@@ -29,6 +29,7 @@
    2. [For loop](./6.Loops/6.2.For/)
    3. [For of, for in loops](./6.Loops/6.3.ForEx/)
 7. [Objects](./7.Objects/)
+8. [Functions](./8.Functions/)
 
 <h3><strong>📥 TAKE PART IN</strong></h3>
 
