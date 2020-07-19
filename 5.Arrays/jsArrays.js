@@ -97,3 +97,75 @@ console.log(`New Array from original: ${newFruits}`);
 newFruits = fruits.slice(2, 4); // Create new array from index 2 to index 4 (4 is not included)
 console.log(`Original Array: ${fruits}`);
 console.log(`New Array from original: ${newFruits}`);
+
+/*
+█▀▄▀█ █▀▀ ▀█▀ █░█ █▀█ █▀▄ █▀   █ █
+█░▀░█ ██▄ ░█░ █▀█ █▄█ █▄▀ ▄█   █ █
+This is the second part of mehtods. Come here when you finished Functions and OOP.
+*/
+
+// .from(iterable) -> Converts in Array an iterable item.
+console.log(`Array from Hello World: ${Array.from("Hello World!")}`);
+
+// .sort([callback]) -> Sorts array elements alphabetically (using unicode value).
+// If we give it a callback, it will sort the array in order of the algorithm we passed.
+console.log(`Sorted list: ${fruits.sort()}`);
+console.log(numbers.sort((a, b) => a - b)); // sort numbers lower to greater
+
+// .forEach(callback(currentValue, [index])) -> ejecuta la función indicada una vez por cada elemento del array.
+console.log(
+  fruits.forEach((element, index) =>
+    console.log(`${element} is in ${index} position.`)
+  )
+);
+
+// .some(callback) -> Checks if at least one element accomplishes the condition.
+console.log(
+  `Is thre any word longer than 2 characters? ${fruits.some(
+    (fruit) => fruit.length > 2
+  )}`
+);
+
+// .every(callback) -> Checks if all the elements accomplishes the condition.
+console.log(
+  `All words are longer than 5 characters? ${fruits.every(
+    (fruit) => fruit.length > 5
+  )}`
+);
+
+// .map(callback) -> Transforms every element of the array and returns a new array.
+newFruits = fruits.map((fruit) => `I like ${fruit}`);
+newFruits.forEach((element) => console.log(element));
+
+// .filter(callback) -> Filtra todos los elementos del array que cumplan la condición y devuelve un nuevo array
+let newNumbers = numbers.filter((number) => number % 2 == 0); // filter even numbers
+console.log(`Even numbers: ${newNumbers}`);
+
+// .reduce(callback) -> Reduces array elements to one unique value.
+console.log(`Even numbers sum: ${newNumbers.reduce((a, b) => a + b)}`); // sum all numbers in the array.
+
+const user = [
+  {
+    name: "Diego",
+    online: false,
+  },
+  {
+    name: "Max",
+    online: true,
+  },
+  {
+    name: "Alex",
+    online: false,
+  },
+  {
+    name: "Ruben",
+    online: true,
+  },
+]; // Array of objects
+
+const usersOnline = user.reduce((total, user) => {
+  if (user.online) total++;
+  return total;
+}, 0); // Initial value of total
+
+console.log(`There are ${usersOnline} users online.`);
