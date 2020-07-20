@@ -39,6 +39,8 @@
 
 1. [DOM Introduction](./11.DOM/)
 2. [Access to nodes](./12.nodes/)
+3. [Classes & Attributes](./13.Attributes/)
+4. [Events](./14.Events/)
 
 <h3><strong>🎓 EXTRA</strong></h3>
 
