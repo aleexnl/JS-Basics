@@ -16,6 +16,8 @@
 
 <h3><strong>📂 CHAPTERS</strong></h3>
 
+<h4><strong>JAVASCRIPT</strong></h4>
+
 1. [Introduction to JavaScript](./1.Introduction/)
 2. [Strings in JavaScript](./2.Strings/)
 3. [Math Object](./3.Math/)
@@ -32,6 +34,11 @@
 8. [Functions](./8.Functions/)
 9. [Object Oriented Programming](./9.OOP/)
 10. [Spread Operator](./10.Spread/)
+
+<h4><strong>DOM (DOCUMENT OBJECT MODEL)</strong></h4>
+
+1. [DOM Introduction](./11.DOM/)
+2. [Access to nodes](./12.nodes/)
 
 <h3><strong>🎓 EXTRA</strong></h3>
 

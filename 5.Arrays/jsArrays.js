@@ -101,7 +101,7 @@ console.log(`New Array from original: ${newFruits}`);
 /*
 █▀▄▀█ █▀▀ ▀█▀ █░█ █▀█ █▀▄ █▀   █ █
 █░▀░█ ██▄ ░█░ █▀█ █▄█ █▄▀ ▄█   █ █
-This is the second part of mehtods. Come here when you finished Functions and OOP.
+This is the second part of methods. Come here when you finished Functions and OOP.
 */
 
 // .from(iterable) -> Converts in Array an iterable item.
@@ -112,7 +112,7 @@ console.log(`Array from Hello World: ${Array.from("Hello World!")}`);
 console.log(`Sorted list: ${fruits.sort()}`);
 console.log(numbers.sort((a, b) => a - b)); // sort numbers lower to greater
 
-// .forEach(callback(currentValue, [index])) -> ejecuta la función indicada una vez por cada elemento del array.
+// .forEach(callback(currentValue, [index])) -> Executes the callback for every element in the array.
 console.log(
   fruits.forEach((element, index) =>
     console.log(`${element} is in ${index} position.`)
@@ -137,7 +137,7 @@ console.log(
 newFruits = fruits.map((fruit) => `I like ${fruit}`);
 newFruits.forEach((element) => console.log(element));
 
-// .filter(callback) -> Filtra todos los elementos del array que cumplan la condición y devuelve un nuevo array
+// .filter(callback) -> Filters all array items that meet the condition and creates a new array with them.
 let newNumbers = numbers.filter((number) => number % 2 == 0); // filter even numbers
 console.log(`Even numbers: ${newNumbers}`);
 
