@@ -31,6 +31,7 @@
 7. [Objects](./7.Objects/)
 8. [Functions](./8.Functions/)
 9. [Object Oriented Programming](./9.OOP/)
+10. [Spread Operator](./10.Spread/)
 
 <h3><strong>🎓 EXTRA</strong></h3>
 
@@ -38,6 +39,7 @@ During my learning phase, I did exercises to put in practice wat I have learned.
 
 1. [Exercises](./Exercises/)
    1. [Chapter 1 - 6](./Exercises/Chapter1-6/)
+   2. [Chapter 7-9](./Exercises/Chapter7-9/)
 
 <h3><strong>📥 TAKE PART IN</strong></h3>
 
