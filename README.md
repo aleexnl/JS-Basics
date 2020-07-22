@@ -41,6 +41,7 @@
 2. [Access to nodes](./12.nodes/)
 3. [Classes & Attributes](./13.Attributes/)
 4. [Events](./14.Events/)
+5. [Event Object](./15.Event/)
 
 <h3><strong>🎓 EXTRA</strong></h3>
 
