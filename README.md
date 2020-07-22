@@ -63,6 +63,8 @@ If you think any of the files related to this project can be improved, feel free
 
 - [**👤 Programinz**](https://www.programiz.com) : _Some of the images and text used in the README.md in chapters._
 
+- [**👤 MDN Web Docs**](https://developer.mozilla.org/es/docs/Learn/JavaScript) : _Code examples & explanations._
+
 <h3><strong>📄 LICENSE</strong></h3>
 
 Have a look at the [**License file**](./LICENSE) for detailed information.
