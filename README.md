@@ -43,6 +43,7 @@
 4. [Listening events](./14.Events/)
 5. [Event Object](./15.Event/)
 6. [Create & Insert elements](./16.Elements/)
+7. [DOM Traversing: Moving through DOM](./17.Traversing/)
 
 <h3><strong>🎓 EXTRA</strong></h3>
 
