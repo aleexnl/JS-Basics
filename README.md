@@ -39,8 +39,8 @@
 
 1. [DOM Introduction](./11.DOM/)
 2. [Access to nodes](./12.nodes/)
-3. [Classes & Attributes](./13.Attributes/)
-4. [Events](./14.Events/)
+3. [HTML Classes & Attributes](./13.Attributes/)
+4. [Listening events](./14.Events/)
 5. [Event Object](./15.Event/)
 6. [Create & Insert elements](./16.Elements/)
 
