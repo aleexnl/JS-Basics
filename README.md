@@ -42,9 +42,9 @@
 3. [HTML Classes & Attributes](./13.Attributes/)
 4. [Listening events](./14.Events/)
 5. [Event Object](./15.Event/)
-6. [Create & Insert HTML elements](./16.Elements/)
+6. [Delete, Insert & Clone in DOm Part I](./16.Elements/)
 7. [DOM Traversing: Moving through DOM](./17.Traversing/)
-8. [Delete & clone DOM elements](./18.Delete/)
+8. [Delete, Insert & Clone in DOm Part II](./18.Delete/)
 
 <h3><strong>🎓 EXTRA</strong></h3>
 
