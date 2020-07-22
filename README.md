@@ -42,6 +42,7 @@
 3. [Classes & Attributes](./13.Attributes/)
 4. [Events](./14.Events/)
 5. [Event Object](./15.Event/)
+6. [Create & Insert elements](./16.Elements/)
 
 <h3><strong>🎓 EXTRA</strong></h3>
 
